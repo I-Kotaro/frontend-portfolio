@@ -435,33 +435,31 @@ body {
 
   .header {
     position: fixed;
-    height: 100vh;
+    top: 0;
     left: 0;
-    flex-basis: 240px;
-    flex-shrink: 0;
+    width: 240px;
+    height: 100vh;
     padding: 50px 20px;
 
     &__container {
       width: 160px;
       margin: 0 auto;
-      position: fixed;
-      top: 50px;
     }
-  
+
     &__logo {
       font-size: 30px;
       letter-spacing: 0.12em;
       line-height: 1;
     }
-  
+
     &__menu-button {
       display: none;
     }
-  
+
     &__contents {
       display: block;
       border: none;
-      position: fixed;
+      margin-top: 60px;
     }
   }
 
